@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chap 5</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Chapter 5</h1>
+    <h2>Write a program that take two numbers & add them in a new variable. Show the result in your browser.</h2>
+    <script>
+        var one = 5;
+        var two = 6;
+        var sum = one+two;
+        document.write("Sum of 5 and 6 is: " +sum);
+    </script>
+    <h2>Repeat task1 for subtraction, multiplication, division & modulus.</h2>
+    <script>
+        var one = 5;
+        var two = 6;
+        var sub = one-two;
+        document.write("Subtraction of 5 and 6 is: " +sub);
+        var one = 5;
+        var two = 6;
+        var mul = one*two;
+        document.write("<br> Multiplication of 5 and 6 is: " +mul);
+        var one = 5;
+        var two = 6;
+        var div = one/two;
+        document.write(" <br> Division of 5 and 6 is: " +div);
+        var one = 5;
+        var two = 6;
+        var mod = one%two;
+        document.write(" <br> Modulus of 5 and 6 is: " +mod);    
+    </script>
+<h2>3. Do the following using JS Mathematic Expressions <br> a. Declare a variable. <br> b. Show the value of variable in your browser like “Value after variable declaration is: ??”. <br> c. Initialize the variable with some number. <br> d. Show the value of variable in your browser like “Initial value: 5”. <br> e. Increment the variable. <br> f. Show the value of variable in your browser like “Value after increment is: 6”. <br> g. Add 7 to the variable. <br> h. Show the value of variable in your browser like “Value after addition is: 13”. <br> i. Decrement the variable. <br> j. Show the value of variable in your browser like “Value after decrement is: 12”. <br> k. Show the remainder after dividing the variable’s value by 3.
+    <br> l. Output : “The remainder is : 0”.</h2>
+    <script>
+        var val;
+        document.write("Value Is Undefiend");
+        val = 9;
+        document.write("<br> Initial Value Is: 9");
+        var inc = ++val;
+        document.write("<br> Value after Increment is: " +inc);
+        val = inc+7;
+        document.write("<br> Value after Addition " +val);
+        val = --val;
+        document.write("<br> Value after Decrement is: " +val);
+        val = val%3;
+        document.write("<br> The Remainder is: " +val);
+    </script>
+    <h2>4. Cost of one movie ticket is 600 PKR. Write a script to store ticket price in a variable & calculate the cost of buying 5 tickets to a movie</h2>
+    <script>
+       var price = 600;
+       var tickets = 5;
+       var total = price*tickets;
+       document.write("Total cost to buy 5 tickets to a movie is: " +total + "PKR");
+    </script>
+    <h2>5. Write a script to display multiplication table of any number in your browser.</h2>
+    <script>
+        for (var i = 1 ; i <= 10; i++){
+            document.write("9" + "x" + i + "=" + 9*i + "<br>");
+        }
+    </script>
+    
+</body>
+<!-- <script src="app.js"></script> -->
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chap 6 to 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Chapter 6 to 9 Solved Questions</h1>
+    <h2>1. Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser:</h2>
+    <script>
+       var a = 20;
+       document.write("The Value of A is: " +a);
+       document.write("<br>...................................");
+       var b = ++a;
+       document.write("<br>The Value of ++a is: " +a);
+       document.write("<br>Now the Value of a is: " +a);
+       var b = a++;
+       document.write("<br><br>The Value of a++ is: " +b);
+       document.write("<br>Now the Value of a++ is:" +a);
+       var b = --a;
+       document.write("<br><br>The Value of --a is: " +a);
+       document.write("<br>Now the Value of a is: " +a);
+       var b = a--;
+       document.write("<br><br>The Value of a-- is: " +b);
+       document.write("<br>Now the Value of a is: " +a);
+    </script>
+    <h2>2. What will be the output in variables a, b & result after execution of the following script: <br>var a = 2, b = 1; <br> var result = --a - --b + ++b + b--;</h2>
+    <script>
+       var a = 2, b = 1;
+       var result = --a - --b + ++b + b--;
+       document.write("A is:" +a);
+       document.write("<br>B is:" +b);
+       document.write("<br>Result is:" +result);
+    </script>
+    <h2>3. Write a program that takes input a name from user & greet the user.</h2>
+    <script>
+        var greet = prompt("Enter Your Name");
+        document.write("Welcome to our Website "+greet);
+    </script>
+    <h2>5. Write a program to take input a number from user & display it’s multiplication table on your browser. If user does not enter a new number, multiplication table of 5 should be displayed by default.</h2>
+    <script>
+      var num = +prompt("Enter any number")
+      for(i=1; i<=10; i++){
+          if(num >0 && num <=100){
+              document.write(num +"x" +i +"=" +num*i +"<br>");
+          }
+          else{
+            document.write("5" +"x" +i +"=" +5*i +"<br>");
+          }
+      }
+    </script>
+</body>
+</html>
